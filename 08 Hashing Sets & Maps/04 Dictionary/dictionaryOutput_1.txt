@@ -1,0 +1,21 @@
+ENGLISH TO SPANISH
+banana [programa, programar]
+celebration [programa, programar]
+computer [programa, programar]
+double [programa, programar]
+father [programa, programar]
+feast [programa, programar]
+good [programa, programar]
+hand [programa, programar]
+hello [programa, programar]
+holiday [programa, programar]
+party [programa, programar]
+plaza [programa, programar]
+priest [programa, programar]
+program [programa, programar]
+sleep [programa, programar]
+son [programa, programar]
+sun [programa, programar]
+vacation [programa, programar]
+
+SPANISH TO ENGLISH

@@ -1,0 +1,61 @@
+Lists
+	1.  Insert at beginning or middle
+	2.  
+	
+	Array - 
+		to insert, time dictated by length - O(n)
+		fixed length
+		but constant time to find - O(1)
+		
+Linked Lists
+	Definition of class refers to itself
+	Consists
+		item
+		reference to next node
+	O(1) to insert/delete
+	Size is not fixed, grow as needed
+		
+	Disadvantages
+		Can't "jump" to specific value (O(n))
+		
+	
+public class ListNode{
+	int item;
+	ListNode next;  //recursive data type
+					//calling class before finishing defining the class
+}
+
+last reference is to null
+
+public ListNode(int item, ListNode next){
+	this.item = item;
+	this.next = next;
+}
+public ListNode(int item){
+	this(item,null);
+}
+public void insertAfter(int item){
+	next=new ListNode(item,next);
+}
+
+To get next value
+	l2.next.insertAfter(2);
+
+public ListNode nth(int position){
+	if(position ==1){return this;}
+	else if( position<1||next==null){
+		return null;
+	} else {return next.nth(position-1);}	
+}
+
+public SListNode{
+	public Object item;
+	public SListNode next;
+}
+
+	---
+public class SList{
+	private SListNode head;
+	private int size;
+
+}
